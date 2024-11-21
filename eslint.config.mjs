@@ -1,4 +1,5 @@
 import js from '@eslint/js'
+import stylisticJS from '@stylistic/eslint-plugin-js'
 import json from '@eslint/json'
 import markdown from '@eslint/markdown'
 import eslintPluginYml from 'eslint-plugin-yml'
@@ -7,6 +8,7 @@ export default [
     {
         files: ['**/*.js', '**/*.mjs'],
         languageOptions: { ecmaVersion: 'latest', sourceType: 'script', globals: { chrome: 'readonly' }},
+        plugins: { 'js-styles': stylisticJS },
         rules: {
             ...js.configs.recommended.rules,
             'indent': 'off', 'no-unexpected-multiline': 'off', 'key-spacing': 'off', // allow whitespace anywhere
