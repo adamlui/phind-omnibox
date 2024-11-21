@@ -2,7 +2,7 @@ import js from '@eslint/js'
 import stylisticJS from '@stylistic/eslint-plugin-js'
 import json from '@eslint/json'
 import markdown from '@eslint/markdown'
-import eslintPluginYml from 'eslint-plugin-yml'
+import yml from 'eslint-plugin-yml'
 
 export default [
     {
@@ -12,6 +12,7 @@ export default [
         rules: {
             ...js.configs.recommended.rules,
             'indent': 'off', 'no-unexpected-multiline': 'off', 'key-spacing': 'off', // allow whitespace anywhere
+            'js-styles/no-trailing-spaces': 'error', // ...except at ends of lines
             'quotes': ['error', 'single', { 'allowTemplateLiterals': true }], // enforce single quotes except backticks to avoid escaping quotes
             'comma-dangle': ['error', 'never'], // enforce no trailing commas in arrays or objects
             'no-async-promise-executor': 'off', // allow promise executor functions to be async (to accomodate await lines)
@@ -33,5 +34,5 @@ export default [
             'markdown/no-missing-label-refs': 'off' // allow missing label references
         }
     },
-    { files: ['**/*.yaml, **/*.yml'], ...eslintPluginYml.configs['flat/standard'][1] }
+    { files: ['**/*.yaml, **/*.yml'], ...yml.configs['flat/standard'][1] }
 ]
