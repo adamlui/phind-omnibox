@@ -4,6 +4,8 @@
 # NOTE: Pass --chrome or --chromium to only affect Chromium manifest
 # NOTE: Pass --firefox or --ff to only affect Firefox manifest
 
+arg=${1#-} ; arg=${arg#-} # strip leading dash(es) from args
+
 # Init UI colors
 NC="\033[0m"    # no color
 BR="\033[1;91m" # bright red
@@ -14,9 +16,6 @@ BW="\033[1;97m" # bright white
 # Init manifest paths
 chromium_manifest="chromium/extension/manifest.json"
 ff_manifest="firefox/extension/manifest.json"
-
-# Normalize args
-arg=${1#-} ; arg=${arg#-} # strip leading dash(es)
 
 # Determine manifests to edit
 case "$arg" in
