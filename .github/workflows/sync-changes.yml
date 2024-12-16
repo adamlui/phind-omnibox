@@ -59,7 +59,7 @@ jobs:
 
       - name: Sync ** to adamlui/ai-apps/phind-omnibox/
         run: |
-          rsync -avhr --delete --exclude={'.*'} \
+          rsync -avhr --delete --exclude '.*' \
             ${{ github.workspace }}/adamlui/phind-omnibox/ \
             ${{ github.workspace }}/adamlui/ai-apps/phind-omnibox/
 
