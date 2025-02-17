@@ -1,7 +1,8 @@
-// Launch phind.com on toolbar icon click
-chrome.action.onClicked.addListener(() =>
-    chrome.tabs.create({ url: 'https://www.phind.com' }))
+const phindURL = 'https://www.phind.com'
 
-// Query phind.com on omnibox query submitted
+// Launch Phind on toolbar icon click
+chrome.action.onClicked.addListener(() => chrome.tabs.create({ url: phindURL }))
+
+// Query Phind on omnibox query submitted
 chrome.omnibox.onInputEntered.addListener(query =>
-    chrome.tabs.update({ url: `https://www.phind.com/search?q=${decodeURIComponent(query)}` }))
+    chrome.tabs.update({ url: `${phindURL}/search?q=${decodeURIComponent(query)}` }))
