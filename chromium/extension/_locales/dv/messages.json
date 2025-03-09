@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Phind Omnibox" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Phind AI އިން ނަތީޖާ ހޯދުމަށް އެޑްރެސް ބާރ ގައި @phind ލިޔެލާށެވެ" }
+  "appDesc": { "message": "Phind AI އިން ނަތީޖާ ހޯދުމަށް އެޑްރެސް ބާރ ގައި @phind ލިޔެލާށެވެ" },
+  "prefix_ask": { "message": "އެހުން" }
 }

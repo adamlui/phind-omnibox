@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Phind Omnibox" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Ituaiga @phind i le tuatusi pa e maua ai iʻuga mai Phind AI" }
+  "appDesc": { "message": "Ituaiga @phind i le tuatusi pa e maua ai iʻuga mai Phind AI" },
+  "prefix_ask": { "message": "Fesili" }
 }

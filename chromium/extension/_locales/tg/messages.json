@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Phind Omnibox" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Барои ба даст овардани натиҷаҳо аз Phind AI дар сатри суроғаҳо @phind нависед" }
+  "appDesc": { "message": "Барои ба даст овардани натиҷаҳо аз Phind AI дар сатри суроғаҳо @phind нависед" },
+  "prefix_ask": { "message": "& Пурсидан" }
 }

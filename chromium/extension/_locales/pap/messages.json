@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Phind Omnibox" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Skirbi @phind den e bara di adrès pa haña resultadonan di Phind AI" }
+  "appDesc": { "message": "Skirbi @phind den e bara di adrès pa haña resultadonan di Phind AI" },
+  "prefix_ask": { "message": "Puntra" }
 }

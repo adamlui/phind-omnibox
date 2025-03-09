@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Phind Omnibox" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Phind AI ден натыйжаларды алуу үчүн @phind дарек тилкесине жазыңыз" }
+  "appDesc": { "message": "Phind AI ден натыйжаларды алуу үчүн @phind дарек тилкесине жазыңыз" },
+  "prefix_ask": { "message": "Сура" }
 }

@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Phind Omnibox" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Cuir a - steach @phind ann am bàr seòlaidh gus toraidhean fhaighinn bho Phind AI" }
+  "appDesc": { "message": "Cuir a - steach @phind ann am bàr seòlaidh gus toraidhean fhaighinn bho Phind AI" },
+  "prefix_ask": { "message": "Iarr" }
 }

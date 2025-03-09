@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Phind Omnibox" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Type @phind mu kero nomuzariro kuwana migumisiro kubva Phind AI" }
+  "appDesc": { "message": "Type @phind mu kero nomuzariro kuwana migumisiro kubva Phind AI" },
+  "prefix_ask": { "message": "Bvunza" }
 }

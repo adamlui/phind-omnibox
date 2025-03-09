@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Phind Omnibox" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Tik @phind long adres bar bilong kisim ol result bilong Phind AI" }
+  "appDesc": { "message": "Tik @phind long adres bar bilong kisim ol result bilong Phind AI" },
+  "prefix_ask": { "message": "Askim" }
 }

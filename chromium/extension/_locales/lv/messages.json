@@ -1,5 +1,6 @@
 {
   "appName": { "message": "Phind Omnibox" },
   "appAuthor": { "message": "Adam Lui" },
-  "appDesc": { "message": "Ierakstiet @phind adreses joslā, lai iegūtu rezultātus no Phind AI" }
+  "appDesc": { "message": "Ierakstiet @phind adreses joslā, lai iegūtu rezultātus no Phind AI" },
+  "prefix_ask": { "message": "DzÄst failu" }
 }
